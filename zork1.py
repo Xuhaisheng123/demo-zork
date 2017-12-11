@@ -11,6 +11,7 @@ def forest():
 				bear_room()
 		elif "2" in next :
 			print "You are under the way to the most dangerous jounney in the wrold\n You still want go? "
+			next2 = raw_input(">")
 		else:
 			print "You need to input the right path,such as 1 or 2."
 			
